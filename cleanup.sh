@@ -1,0 +1,1 @@
+rm -rf env chatbot_model.h5 model.h5 texts.pkl words.pkl classes.pkl labels.pkl

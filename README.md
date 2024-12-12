@@ -1,1 +1,1 @@
-# Ayurvedic-Chatbot
+# Ayurvedic chatbot

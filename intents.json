@@ -1,0 +1,444 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "hi",
+              "Hey",
+              "hi there",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+          ],
+          "responses": [
+              "Hey :-)",
+              "Hello, thanks for visiting",
+              "Hello how are you feeling today?",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye"
+          ],
+          "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+          ]
+      },
+      {
+          "tag": "talk",
+          "patterns": [
+              "Hi, How is it going?",
+              "How do you do?",
+              "Nice to meet you."
+          ],
+          "response": [
+              "The MedBot is working great! How are you feeling today?",
+              "Thank you. How can i assist you? How are you feeling today?",
+              "I'm doing well. How are you feeling today?"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Thank's a lot!",
+              "thnx"
+          ],
+          "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure"
+          ]
+      },
+      {
+          "tag": "interest",
+          "patterns": [
+              "What are your interests"
+          ],
+          "responses": [
+              " I am interested in helping you in Home Made and ayurvedic Remedies for your health!"
+          ]
+      },
+      {
+          "tag": "location",
+          "patterns": [
+              " What is your location"
+          ],
+          "responses": [
+              "I am offline. So I am present at the same location as you."
+          ]
+      },
+      {
+          "tag": "name",
+          "patterns": [
+              " What is your name"
+          ],
+          "responses": [
+              "My Name is MedBot."
+          ]
+      },
+      {
+          "tag": "Fine",
+          "patterns": [
+              "i am feeling fine",
+              "i feel fine",
+              "i feel great",
+              "fine",
+              "i feel awesome",
+              "i feel good",
+              "i am feeling good"
+          ],
+          "responses": [
+              "Good to know. How may i assist you then?"
+          ]
+      },
+      {
+          "tag": "health",
+          "patterns": [
+              "I feel sick",
+              "I have weakness in my body.",
+              "I am feeling weak",
+              "i am sick",
+              "i am not well",
+              "i am not feeling well"
+          ],
+          "responses": [
+              "Okay. Can you tell me what's wrong? What are your symptoms?"
+          ]
+      },
+      {
+          "tag": "cold",
+          "patterns": [
+              "My nose is choked."
+          ],
+          "responses": [
+              "Okay, this is a symptom of cold, do you have cold?"
+          ]
+      },
+      {
+          "tag": "cold remedy",
+          "patterns": [
+              "i have cold",
+              "i have a cold",
+              "cold"
+          ],
+          "responses": [
+              "Take ½ teaspoon of Haldi powder and ½ teaspoon of pepper powder with milk add a 1 teaspoon honey, 3 times a day. It helps you in cold."
+          ]
+      },
+      {
+          "tag": "remedy confirm",
+          "patterns": [
+              "yes i took"
+          ],
+          "responses": [
+              "Good, now take some rest."
+          ]
+      },
+      {
+          "tag": "cough remedy",
+          "patterns": [
+              "My throat is itching.",
+              "i have cough",
+              "cough"
+          ],
+          "responses": [
+              "What kind of cough do you have : 1. Wet cough 2. Dry cough"
+          ]
+      },
+      {
+          "tag": "Wet cough",
+          "patterns": [
+              "i have a wet cough",
+              "wet cough",
+              "wet"
+          ],
+          "responses": [
+              "Wet cough - Take 1 teaspoon honey. Add 1 teaspoon of ginger juice and 1 pinch of black pepper. Take once in the morning and once before going to bed at night to get relief from Wet cough."
+          ]
+          
+      },
+      {
+          "tag": "Dry cough",
+          "patterns": [
+              "i have a dry cough",
+              "dry cough",
+              "dry"
+          ],
+          "responses": [
+              "medicine: Bibhitaki (Terminalia bellirica)  dosage: 1-2 teaspoons of Bibhitaki powder or 500 mg of extract twice daily"
+          ]
+      },
+      {
+          "tag": "fever",
+          "patterns": [
+              "My body temperature has raised.",
+              "i have fever",
+              "i am suffering from fever",
+              "fever"
+          ],
+          "responses": [
+              "Basil (Tulsi) is an effective herb & It help reduce fever very quickly.                Take about 20 basil (tulsi) leaves and boil them, now add 1 teaspoon of crushed ginger in the strained tulsi water, and boil until the solution gets reduced to half. Add a little honey and drink this tea two or three times a day for three days to get relief from fever."
+          ]
+      },
+      {
+        "tag": "Heart Health, High Blood Pressure, and Cholesterol",
+        "patterns": [
+          "I have heart issues",
+          "I have high cholesterol",
+          "heart health",
+          "cholestrol"
+        ],
+        "responses": [
+          "medicine: Arjuna (Terminalia arjuna)  dosage: 500 mg-1 g of bark powder or 1-2 capsules twice daily"
+        ]
+      },
+      {
+        "tag": "Menstrual Health and Fertility",
+        "patterns": [
+          "I have menstrual problems",
+          "I have fertility issues",
+          "fertility problems"
+        ],
+        "responses": [
+          "medicine: Shatavari (Asparagus racemosus)  dosage: 500 mg-1 g of root extract or 1-2 teaspoons of powder twice daily"
+        ]
+      },
+      {
+        "tag": "Joint Pain, Arthritis, and Inflammation",
+        "patterns": [
+          "I have joint pain",
+          "I have arthritis",
+          "I have inflammation"
+        ],
+        "responses": [
+          "medicine: Boswellia (Boswellia serrata)  dosage: 300-500 mg of extract or 1-2 grams of resin powder twice daily",
+          "medicine: Turmeric (Curcuma longa)  dosage: 500-1,000 mg of curcumin extract or 1-2 teaspoons of turmeric powder daily"
+        ]
+      },
+      {
+        "tag": "Stress, Anxiety, and Insomnia",
+        "patterns": [
+          "I am feeling stressed",
+          "I have anxiety",
+          "I can't sleep",
+          "insomnia",
+          "stress"
+        ],
+        "responses": [
+          "medicine: Ashwagandha  dosage: 300-500 mg of root extract or 1-2 teaspoons of powder twice daily",
+          "medicine: Shankhpushpi  dosage: 1-2 teaspoons of powder or 500 mg of extract twice daily"
+        ]
+      },
+      {
+          "tag": "shivering",
+          "patterns": [
+              "I am shivering",
+              "shivering"
+          ],
+          "responses": [
+              "This is a symptom of fever, Take tea/decoction of about 20 Tulsi leaves 3 times a day till fever subsides. It helps you in fever/shivering."
+          ]
+      },
+      {
+          "tag": "Headache",
+          "patterns": [
+              "i have a headache",
+              "i have headache",
+              "headache"
+          ],
+          "responses": [
+              "what kind of headache do you have : 1. Migrane headache - Pain feels like a tight band around your head. 2. Cluster headache - Pain strikes in a group 3. Tension Headache - Ocassional"
+          ]
+      },
+      {
+          "tag": "Migrane Headache",
+          "patterns": [
+              "i have a migrane headache",
+              "migrane",
+              "1"
+          ],
+          "responses": [
+              "Migraine Headache - You can drink ginger and basil (tulsi) leaves tea throughout the day when you have pain and don't forget to have it right at the onset of pain."
+          ]
+      },
+      {
+          "tag": "Cluster Headache",
+          "patterns": [
+              "i have a cluster headache",
+              "cluster",
+              "2"
+          ],
+          "responses": [
+              "Cluster Headache - Ginger is known to help reduce the inflammation of the blood vessels in the head, providing relief. One can consume ginger to prevent headaches. Mix equal parts of ginger juice and lemon juice and have it daily twice."
+          ]
+      },
+      {
+          "tag": "Tension Headache",
+          "patterns": [
+              "i have a tension headache",
+              "tension",
+              "3"
+          ],
+          "responses": [
+              "Tension Headache - Apply heat to relieve tense neck and shoulder muscles. Use a heating pad set on low, a hot water bottle, a hot shower or bath, a warm compress, or a hot towel. Or apply ice or a cool washcloth to the forehead. Massage also can relieve muscle tension — and sometimes headache pain."
+          ]
+      },
+      {
+        "tag": "Respiratory Issues",
+        "patterns": [
+          "I have respiratory issues",
+          "I have trouble breathing",
+          "breathing problem",
+          "respiratory problem"
+        ],
+        "responses": [
+          "medicine: Abhayarishta  dosage: 15-30 ml twice daily after meals, diluted with an equal amount of water",
+          "medicine: Guduchi  dosage: 500 mg to 1 g twice daily",
+          "medicine: Tulsi  dosage: 2-3 fresh leaves or 300-600 mg of tulsi extract twice daily"
+        ]
+      },
+      {
+        "tag": "Digestive Issues",
+        "patterns": [
+          "I have digestive issues",
+          "stomach problem",
+          "digestive problem"
+        ],
+        "responses": [
+          "medicine: Ahiphenasava  dosage: 12-24 ml after meals once or twice daily",
+          "medicine: Cumin  dosage: 1 teaspoon of cumin seeds or powder daily",
+          "medicine: Cardamom  dosage: 1-2 grams (roughly 1/4 to 1/2 teaspoon) of cardamom powder twice daily",
+          "medicine: Triphala  dosage: 1-2 teaspoons of Triphala powder with warm water before bedtime",
+          "medicine: Amla  dosage: 1-2 teaspoons of amla powder or 500 mg of amla extract twice daily",
+          "medicine: Haritaki  dosage: 1-2 teaspoons of Haritaki powder with warm water before bed",
+          "medicine: Ginger  dosage: 1-2 grams of ginger powder or 1-inch piece of fresh ginger daily",
+          "medicine: Licorice root  dosage: 1-3 grams of licorice root powder twice daily",
+          "medicine: Yashtimadhu  dosage: 1-3 grams of Yashtimadhu powder twice daily"
+        ]
+      },
+      {
+          "tag": "diabetes",
+          "patterns": [
+              "i have diabetes",
+              "i am suffering from diabetes",
+              "diabetes"
+          ],
+          "responses": [
+              "Powder Methi, Kalonji and Tukhme Kasni (Chicory seeds Cichorium intybus) equal quantity, take ½ teaspoon daily before food 3 times. Eat plenty of vegetables like Guar beans, Knolkhol, Karela, Bhindi. It helps you in diabetes."
+          ]
+      },
+      {
+          "tag": "abdominal pain",
+          "patterns": [
+              "i have stomach pain",
+              "i have abdominal pain",
+              "i am suffering from stomach pain",
+              "stomach pain",
+              "abdominal pain"
+          ],
+          "responses": [
+              "1 teaspoon Adrak/Sonth juice in a glass of butter milk with lemon & salt. It helps you in stomach/abdominal pain."
+          ]
+      },
+      {
+          "tag": "loss of appetite",
+          "patterns": [
+              "loss of appetite"
+          ],
+          "responses": [
+              "1 teaspoon Ajvain powder with warm water 1/2 hour before meals."
+          ]
+      },
+      {
+          "tag": "vomiting",
+          "patterns": [
+              "i have vomiting",
+              "vomiting"
+          ],
+          "responses": [
+              "1-2 teaspoon Dalchini powder with honey thrice a day in divided doses. It helps you in vomiting."
+          ]
+      },
+      {
+        "tag": "Skin Issues",
+        "patterns": [
+          "I have skin issues",
+          "I have skin problems",
+          "skin problem",
+          "skin issues"
+        ],
+        "responses": [
+          "medicine: Karela (Momordica charantia L.)  dosage: 50-100 ml of fresh juice or 500 mg-1 g of dried fruit powder once or twice daily",
+          "medicine: Neem  dosage: 2-4 grams of neem powder or 1-2 neem capsules twice daily"
+        ]
+      },
+      {
+          "tag": "toothache",
+          "patterns": [
+              "i have toothache",
+              "toothache"
+          ],
+          "responses": [
+              "Keep fried Hing in carious tooth. It helps you in toothache."
+          ]
+      },
+      {
+          "tag": "hair fall",
+          "patterns": [
+              "i am suffering from hair fall",
+              "i have hair fall",
+              "hair fall"
+          ],
+          "responses": [
+              "Coconut oil processed with Methi powder and Amla powder should be used regularly."
+          ]
+      },
+      {
+          "tag": "dizzy",
+          "patterns": [
+              "I am feeling dizzy",
+              "dizzy"
+          ],
+          "responses": [
+              "This might be because you are tired, you should take some rest."
+          ]
+      },
+      {
+        "tag": "Thank you",
+        "patterns":[
+            "Thank you for your help",
+            "Thanks",
+            "Thank you"
+        ],
+        "responses":[
+            "You are welcome! Have a great day",
+            "I hope you get well soon",
+            "Take Care."
+        ]
+      },
+      {
+          "tag": "take care",
+          "patterns": [
+              "yes, i feel good",
+              "yes",
+              "yup",
+              "yess"
+          ],
+          "responses": [
+              "Hope you get well soon, Take care!"
+          ]
+      }
+  ]
+}
